@@ -1,0 +1,81 @@
+.header{
+    border-bottom: 2px solid #000;
+}
+
+.header h3{
+    text-align: left;
+    margin-bottom: 7px;
+}
+
+.show-not-completed-task{
+    width:100%;
+    border-collapse: collapse;
+    background: darkgray;
+}
+
+.show-not-completed-task tr td{
+    padding: 28px 13px;
+}
+.show-not-completed-task tr td:nth-child(2){
+    width:49%;
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.show-not-completed-task tr, .show-not-completed-task td{
+    border-bottom: 1px solid grey;
+}
+
+.show-not-completed-task button{
+    border:none;
+    font-size: 15px;
+    cursor:pointer;
+    outline: none;
+}
+.show-not-completed-task button:first-child{
+    margin-right: 7px;
+}
+
+.strike{
+    text-decoration: line-through;
+}
+
+.toggle-task:hover{
+    cursor: pointer;
+}
+
+.no-task{
+    text-align: center;
+}
+
+.editTask{
+    width: 158px;
+    height: 25px;
+    padding-left: 10px;
+    font-size: 14px;
+    outline: none;
+}
+table tr:nth-of-type(odd), table tr:nth-of-type(odd) button, table tr:nth-of-type(odd) input {
+    background: aliceblue;
+}
+
+table tr:nth-of-type(odd) input{
+    border: 1px solid #000;
+}
+
+table tr:nth-of-type(even) {
+    background: #FFF;
+}
+
+.error{
+    text-align: center;
+    top: 35px;
+    left: 32px;
+    font-family: cursive;
+    position: absolute;
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
+}
